@@ -15,7 +15,7 @@
 //= require_tree .
 
 window.onload = function() {
-  if(document.title == 'pling | Thanks')
+  if(document.title == 'PalmLing | Thanks')
   {
     var i = document.createElement("img");
     var url_string = "https://www.curebit.com/public/nicks-shop/subscriptions/create.js?subscription[email]=nine@go.com&subscription[customer_id]="+ window.dude_id +  "&v=0.4";    
