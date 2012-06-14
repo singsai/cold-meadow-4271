@@ -1,0 +1,15 @@
+<% provide(:title, 'Thanks') %>
+<% @dudeID = '13' %>
+<div class="center hero-unit">
+  <h1>Thanks</h1>
+
+  <h2>
+    This is the about page for
+    <a href="#/">pling</a>.
+  </h2>
+	
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+<%= javascript_tag do %>
+	window.dude_id = '<%= j @dudeID %>';
+<% end %>

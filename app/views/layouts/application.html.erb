@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= full_title(yield(:title)) %></title>
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "https://[tangcius.com]?referrer[customer_id]=001&referrer[email]=nicktang@gmail.com&referred[customer_id]=006&referred[email]=002.taiwan@gmail.com" %>
+	<%= csrf_meta_tags %>
+	<%= render 'layouts/shim' %>
+</head>
+<body>
+	<%= render 'layouts/header' %>
+			<div class="container">
+			  <%= yield %>
+				<%= render 'layouts/footer' %>
+				
+			</div>
+</body>
+</html>
