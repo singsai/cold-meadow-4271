@@ -6,7 +6,7 @@ class UsersController < ApplicationController
   def new
     @user = User.new
     @user.user_type = params[:user_type]
-    UserMailer.test_email(self).deliver
+    #UserMailer.test_email(self).deliver
   end
   
   def create
