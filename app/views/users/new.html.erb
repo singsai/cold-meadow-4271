@@ -12,13 +12,13 @@
       <%= f.error_messages %> 
 
       <%= f.label :name %>
-      <%= f.text_field :name %>
+      <%= f.text_field :name, :placeholder => "First and Last" %>
 
       <%= f.label :email %>
       <%= f.text_field :email %>
 
-      <%= f.label :skype, "Skype ID (your username on Skype)" %>
-      <%= f.text_field :skype %>
+      <%= f.label :skype %>
+      <%= f.text_field :skype, :placeholder => "your username on Skype" %>
 			
       <%= f.submit "Signup", class: "btn btn-large btn-primary" %>
 			
