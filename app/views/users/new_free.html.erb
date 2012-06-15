@@ -1,0 +1,32 @@
+<%= provide(:title, 'PalmLing for Skype - Step 1') %>
+<div id="skype-header" class="row span6 offset3">
+<h1>PalmLing for Skype (Free)</h1>
+<h2>Step 1 - Signup</h2>
+<p>Thank you for your interest in PalmLing for Skype!  You just need to sign up and select a plan to get started.  Please complete the form below to get started.
+</p>
+</div>
+
+<div class="row">
+  <div class="span6 offset3 temp-skype">
+    <%= form_for(@user) do |f| %>
+      <%= f.error_messages %> 
+
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email %>
+      <%= f.text_field :email %>
+
+      <%= f.label "Skype ID" %>
+      <%= f.text_field :skype %>
+			
+      <%= f.submit "Signup", class: "btn btn-large btn-primary" %>
+			
+			<div class='hideme'>
+			<%= f.text_field :user_type %><%= f.text_field :referred_by %>
+			</div>
+			
+    <% end %>
+  </div>
+</div>
+
