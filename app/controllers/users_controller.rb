@@ -39,9 +39,8 @@ class UsersController < ApplicationController
     @user = User.new
     @user.user_type = params[:user_type]
   end
-  
-  def thanks_free
-    redirect_to 'http://www.google.com'
-  end
-
+  # def new_free_hr
+  #   @user = User.new
+  #   @user.user_type = params[:user_type]
+  # end  
 end

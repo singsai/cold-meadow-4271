@@ -20959,3 +20959,661 @@ Served asset /bg.jpg - 304 Not Modified (3ms)
 
 Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 11:43:36 -0600
 Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-15 13:46:38 -0600
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (79.6ms)
+  Rendered layouts/_shim.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 424ms (Views: 380.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /application.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /custom.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /referrals.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /referrals.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /bg.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:46:40 -0600
+Served asset /palmling.png - 304 Not Modified (16ms)
+
+
+Started GET "/free" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Processing by UsersController#new_free as HTML
+  Rendered users/new_free.html.erb within layouts/application (30.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 109ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /referrals.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /bg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:47:03 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:50:32 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (66.8ms)
+Completed 500 Internal Server Error in 69ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    9: 
+    10: <div class="row">
+    11:   <div class="span6 offset3 temp-skype">
+    12:     <%= form_for(@user) do |f| %>
+    13:       <%= f.error_messages %> 
+    14: 
+    15:       <%= f.label :name %>
+  app/views/users/new_free_hr.html.erb:12:in `_app_views_users_new_free_hr_html_erb__1902715162529470013_70318646779780'
+
+
+  Rendered /Users/crazyfarm/.rvm/gems/ruby-1.9.3-p194@pling/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.6ms)
+  Rendered /Users/crazyfarm/.rvm/gems/ruby-1.9.3-p194@pling/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/crazyfarm/.rvm/gems/ruby-1.9.3-p194@pling/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (36.3ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:50:33 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    9: 
+    10: <div class="row">
+    11:   <div class="span6 offset3 temp-skype">
+    12:     <%= form_for(@user) do |f| %>
+    13:       <%= f.error_messages %> 
+    14: 
+    15:       <%= f.label :name %>
+  app/views/users/new_free_hr.html.erb:12:in `_app_views_users_new_free_hr_html_erb__1902715162529470013_70318646779780'
+
+
+  Rendered /Users/crazyfarm/.rvm/gems/ruby-1.9.3-p194@pling/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.4ms)
+  Rendered /Users/crazyfarm/.rvm/gems/ruby-1.9.3-p194@pling/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/crazyfarm/.rvm/gems/ruby-1.9.3-p194@pling/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.7ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 15.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /referrals.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /palmling.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:51:36 -0600
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /referrals.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /bg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:51:37 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (2.4ms)
+Compiled users.css  (64ms)  (pid 44237)
+Compiled application.css  (1ms)  (pid 44237)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 146ms (Views: 145.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /referrals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /users.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /bg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:53:10 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /referrals.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:53:23 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (2.2ms)
+Compiled users.css  (14ms)  (pid 44237)
+Compiled application.css  (1ms)  (pid 44237)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 77ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /referrals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:53:33 -0600
+Served asset /palmling.png - 304 Not Modified (1ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (3.1ms)
+Compiled users.css  (17ms)  (pid 44237)
+Compiled application.css  (1ms)  (pid 44237)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 81ms (Views: 81.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /referrals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /bg.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:53:37 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/freehr" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Processing by UsersController#new_free_hr as HTML
+  Rendered users/new_free_hr.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /referrals.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:53:57 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/free" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Processing by UsersController#new_free as HTML
+  Rendered users/new_free.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /application.css - 304 Not Modified (33ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /referrals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /palmling.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-15 13:57:54 -0600
+Served asset /bg.jpg - 304 Not Modified (0ms)
