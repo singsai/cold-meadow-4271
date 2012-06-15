@@ -6,6 +6,7 @@ class UsersController < ApplicationController
   def new
     @user = User.new
     @user.user_type = params[:user_type]
+    #UserMailer.welcome_email(self).deliver
     #UserMailer.test_email(self).deliver
   end
     
@@ -22,8 +23,10 @@ class UsersController < ApplicationController
       #redirect_to 'static_pages#thanks_free'
         
       if request.referer.include? "free"
+        UserMailer.welcome_email(@user, "free").deliver
         render 'thanks_free'  
       else  
+        UserMailer.welcome_email(@user, "regular").deliver
         redirect_to @user
       end
       

@@ -11,7 +11,7 @@
 
 class User < ActiveRecord::Base
   attr_accessible :name, :email, :skype, :user_type, :referred_by
-  after_create :send_welcome_email
+  #after_create :send_welcome_email
   
   validates :name, :presence => true
   validates :email, :presence => true, :uniqueness => true

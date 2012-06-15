@@ -1,6 +1,6 @@
 Pling::Application.routes.draw do
   match '/free', to: 'users#new_free'
-  match '/thanks_free', to: 'static_pages#thanks_free'
+  #match '/thanks_free', to: 'static_pages#thanks_free'
   resources :users
 
   #match '/thanks', to: "referrals#thanks"
