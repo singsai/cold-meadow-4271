@@ -11,8 +11,8 @@ class UserMailer < ActionMailer::Base
        <br/>Once your payment is processed and confirmed, a member of the PalmLing team will follow-up with you with details on how to
        access our global community of translators. Please allow 1 hour for us to respond to you. <br/><br/>Thank you, <br/><br/>
        The PalmLing Team, <br/><a href='http://www.palmling.com'>PalmLing<a/>. <br/><br/>
-       <a href='https://twitter.com/#!/palmling'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a>&nbsp<span><a href='https://twitter.com/#!/palmling'>PalmLing on Twitter</a></span><br/>
+       <a href='https://twitter.com/#!/palmling'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a><span><a href='https://twitter.com/#!/palmling'> PalmLing on Twitter</a></span><br/>
        <a href='http://www.facebook.com/pages/PalmLing/108198825934073'>
-       <img src='http://therohanaurora.com/files/downloads/icon/facebook_16.png' /></a>&nbsp&nbsp<span><a href='http://www.facebook.com/pages/PalmLing/108198825934073'>PalmLing on FaceBook</a></span>")
-  end
+       <img src='http://therohanaurora.com/files/downloads/icon/facebook_16.png' /></a><span><a href='http://www.facebook.com/pages/PalmLing/108198825934073'> PalmLing on FaceBook</a></span>")
+    end
 end
