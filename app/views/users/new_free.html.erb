@@ -1,8 +1,9 @@
 <%= provide(:title, 'PalmLing for Skype - Step 1') %>
 <div id="skype-header" class="row span6 offset3">
-<h1>PalmLing for Skype (Free)</h1>
+<h4>PalmLing for Skype (1 Hour Trial)</h4>
+<h3><%= link_to 'Sign up for Premium', 'http://http://skype.premium.com' %></h3>
 <h2>Step 1 - Signup</h2>
-<p>Thank you for your interest in PalmLing for Skype! Please complete the form below to get started.
+<p>Thank you for your interest in PalmLing for Skype! Please complete the form below to get started. <!--a href='http://skype.premium.com'>Sign up for Premium instead.</a-->
 </p>
 </div>
 
@@ -21,12 +22,11 @@
       <%= f.text_field :skype %>
 			
       <%= f.submit "Signup", class: "btn btn-large btn-primary" %>
-			
 			<div class='hideme'>
 			<%= f.text_field :user_type %><%= f.text_field :referred_by %>
-			</div>
-			
-    <% end %>
+			</div>			
+	 <% end %>	
+	
   </div>
 </div>
 
