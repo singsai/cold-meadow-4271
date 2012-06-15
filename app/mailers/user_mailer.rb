@@ -6,10 +6,10 @@ class UserMailer < ActionMailer::Base
       mail(:to => user.email, :bcc => "nick@palmling.com", :subject => "Thank you for Signing up with PalmLing for Skype!", 
       :content_type => "text/html", :body => "Thank you for signing up for a trial version of <a href='http://www.palmling.com'>PalmLing for Skype</a>. Your Skype name is: #{user.skype} 
       <br/><br/>
-      To get started, simply send a Skype request to &quotPalmLingSpanish&quot.
+      To get started, simply send a Skype request to &quotPalmLingSpanish&quot.<br/><br/>
       Once we confirm your request, you will have access for one hour to
       access our global community of translators. Please don't abuse this privilege, and don't worry, your trial version will not start until we confirm your request. Please allow 1 hour for us to respond to you. 
-      
+      If you would like to sign up for the premium version, please visit: <a href='http://skype.palmling.com'>skype.palmling.com</a>.
       <br/><br/>Thank you, <br/><br/>
       The PalmLing Team, <br/><a href='http://www.palmling.com'>PalmLing<a/>. <br/><br/>
       <a href='https://twitter.com/#!/palmling'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a><span> </span><a href='https://twitter.com/#!/palmling'>PalmLing on Twitter</a><br/>
@@ -26,14 +26,6 @@ class UserMailer < ActionMailer::Base
     end
   end
 
-  private
-    def regbody
-      
-    end
-  
-    def freebody
-      "Thanks, freeloader!"
-    end
   # def test_email(user)
   #     mail(:to => 'maxswell@gmail.com', :bcc => "nick@palmling.com", :subject => "Thank you for Signing up with PalmLing for Skype!", :content_type => "text/html",
   #      :body => "Thank you for signing up with <a href='http://www.palmling.com'>PalmLing for Skype</a>. Your Skype name is: Kevin <br/>
