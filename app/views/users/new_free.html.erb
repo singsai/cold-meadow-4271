@@ -1,7 +1,6 @@
 <%= provide(:title, 'for Skype - Step 1') %>
 <div id="skype-header" class="row span6 offset3">
 <h5>PalmLing for Skype (1 Hour Free Trial)</h5>
-<h3><a class="btn btn-success btn-large" href="http://skype.palmling.com">Sign up for Premium</a></h3>
 <h2>Step 1 - Signup</h2>
 <p>Thank you for your interest in PalmLing for Skype! Please complete the form below to get started. <!--a href='http://skype.palmling.com'>Sign up for Premium instead.</a-->
 </p>
@@ -20,8 +19,21 @@
 
       <%= f.label :skype %>
       <%= f.text_field :skype, :placeholder => "your username on Skype" %>
-			
-      <%= f.submit "Signup", class: "btn btn-large btn-primary" %>
+	
+	<input type="submit" value="Sign up for the Trial" name="commit" class="btn btn-large btn-primary">
+	      <br />	
+	  <div><p style="color: white; font-size: 16px"> Want more Minutes?</p> <a style="width: 430px; height: 15px" class="btn btn-success btn-large" href="http://skype.palmling.com">Sign up for Premium</a></div>		
+	
+	  <!--input type="submit" value="Signup for the Trial" name="commit" class="btn btn-large btn-primary">
+	  <div style="float: right"> <a class="btn btn-success btn-large" href="http://skype.palmling.com">Sign up for Premium</a></div>
+	 <br style="clear:both;" /-->		
+    <!--%= button_tag "Signup", class: "btn btn-large btn-primary" %-->
+	<!--a class="btn btn-primary btn-large" href="http://skype.palmling.com">Signup</a>
+	<a class="btn btn-primary btn-large" href="http://skype.palmling.com">Sign up for Premium</a-->
+	<!--%= button_tag 'Sign up for Premium', :class=>'btn btn-primary btn-large', :name => 'premium-signup' %-->
+	
+
+		<!--span><a class="btn btn-primary btn-large" href="http://skype.palmling.com">Sign up for Premium</a></span-->
 			<div class='hideme'>
 			<%= f.text_field :user_type %><%= f.text_field :referred_by %>
 			</div>			
