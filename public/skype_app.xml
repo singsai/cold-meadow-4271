@@ -35,7 +35,7 @@
 	</Program_Info>
     <Skype_Info>
 	    <SkypeAppDirectory_ID></SkypeAppDirectory_ID><!--APP ID in the App Directory, for the first submission please leave it blank, you will receive generated ID from App Directory admin by email-->
-		<SkypeApp_Category>Business</SkypeApp_Category><!--Program category,
+		<SkypeApp_Category>Translators</SkypeApp_Category><!--Program category,
 		pick primary category, list of available categories you can find here:
 		It need to be one of the examples we're including (including case sensitivity)
 			Business
@@ -48,11 +48,11 @@
 			-->
         <SkypeApp_skypekit>N</SkypeApp_skypekit><!--Specify Y if you used SkypeKit to build the program-->
 		<SkypeApp_RemovalRequired></SkypeApp_RemovalRequired><!--Specify Y if you would like to remove program from App Directory-->
-        <SkypeApp_Features_Line1>Languages: Spanish to English and English to Spanish</SkypeApp_Features_Line1><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line2>1 hour free trial before you buy</SkypeApp_Features_Line2><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line3> Multiple pricing options: 60 minutes to 24 hours</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line4>Never again will a language barrier prevent you from having a conversation</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line5>Visit PalmLing.com to learn more</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line1>Languages: Spanish to English and English to Spanish.</SkypeApp_Features_Line1><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line2>1 hour free trial before you buy.</SkypeApp_Features_Line2><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line3> Multiple pricing options: 60 minutes to 24 hours.</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line4>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line5>Visit PalmLing.com to learn more.</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line6></SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line7></SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line8></SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
