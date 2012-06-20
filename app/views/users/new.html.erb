@@ -12,7 +12,7 @@
   })();
 
 </script>
-<div id="skype-header" class="row span6 offset3">
+<div id="skype-header" class="row span6 offset4">
 <h1>PalmLing for Skype</h1>
 <h2>Step 1 - Signup</h2>
 <p>Thank you for your interest in PalmLing for Skype!  You just need to sign up and then select a plan.  Please complete the form below to get started.
@@ -20,7 +20,17 @@
 </div>
 
 <div class="row">
-  <div class="span6 offset3 temp-skype">
+
+ <div class="span4" style="background-color: #BCBCBC; border-radius: 5px; color: black;">
+  <h4 style="margin: 10px">Skype Premium Pricing:</h4>	
+
+<ul>
+	<li>60 Minutes: $25.00 USD</li>
+	<li>240 Minutes (4 hrs): $75.00 USD</li>
+	<li>1440 Minutes (24 hrs): $350.00 USD</li>
+
+ </div>
+  <div class="span6 temp-skype">
     <%= form_for(@user) do |f| %>
       <%= f.error_messages %> 
 
@@ -42,12 +52,3 @@
     <% end %>
   </div>
 </div>
-<div class="row">
-  <div class="span6 offset3">
-60 Minutes: $25.00 USD<br/><br/>
-240 Minutes (4 hrs): $75.00 USD <br/><br/>
-1440 Minutes (24 hrs): $350.00 USD
-
-  </div>
-</div>
-
