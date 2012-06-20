@@ -19,6 +19,7 @@ Pling::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
   match '/palmlingforskypeconfirmation', to: 'static_pages#thanks'
 
+  get '/upgrade', to: 'users#upgrade'
   #match '/thanks', to: 'users#thanks'
 
   # The priority is based upon order of creation:

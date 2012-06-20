@@ -72,13 +72,18 @@ input[type="image"]
 	border-bottom: none;
 
 }
+
 #errorExplanation
-{
-	
-	color: black;
+{	
 	border: 1px solid red;
 	padding: 5px;
 }
+
+#errorExplanation h3, a, a:hover
+{	
+	color: red;
+}
+
 #errorExplanation h2
 {
 	text-align: left;

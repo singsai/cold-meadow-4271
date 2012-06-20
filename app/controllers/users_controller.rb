@@ -30,8 +30,15 @@ class UsersController < ApplicationController
         redirect_to @user
       end
       
-    else
-      render 'new'
+    else      
+      if request.referer.include? "free"
+
+      # rescue
+      #   render :template => 'application/already_registered', :status => :not_found
+        render 'new_free'
+      else
+        render 'new'
+      end
     end            
   end
 
@@ -39,6 +46,22 @@ class UsersController < ApplicationController
     @user = User.new
     @user.user_type = params[:user_type]
   end
+  
+  def upgrade
+  end
+  
+  # def edit
+  # end
+
+  # def update
+  #   if @user.update_attributes(params[:user])
+  #     flash[:success] = "Profile updated"
+  #     sign_in @user
+  #     redirect_to @user
+  #   else
+  #     render 'edit'
+  #   end
+  # end  
   # def new_free_hr
   #   @user = User.new
   #   @user.user_type = params[:user_type]

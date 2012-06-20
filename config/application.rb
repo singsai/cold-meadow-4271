@@ -24,6 +24,11 @@ module Pling
     # Custom directories with classes and modules you want to be autoloadable.
     # config.autoload_paths += %W(#{config.root}/extras)
 
+    # ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|
+    #   errors = Array(instance.error_message).join(',')
+    #   %(#{html_tag}<span class="validation-error">&nbsp;#{errors}</span>).html_safe
+    # end
+
     # Only load the plugins named here, in the order given (default is alphabetical).
     # :all can be used as a placeholder for all plugins not explicitly named.
     # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
