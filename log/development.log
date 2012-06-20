@@ -25383,3 +25383,301 @@ Served asset /bg.jpg - 304 Not Modified (0ms)
 
 Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-16 00:13:04 -0600
 Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-06-20 13:57:09 -0600
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (68.3ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 496ms (Views: 411.8ms | ActiveRecord: 25.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /custom.css - 200 OK (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /users.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /referrals.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /users.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /referrals.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /bg.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /palmling.png - 304 Not Modified (31ms)
+
+
+Started GET "/assets/palmling.ico" for 127.0.0.1 at 2012-06-20 13:57:11 -0600
+Served asset /palmling.ico - 304 Not Modified (13ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-20 14:00:40 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VkCMQYSPzK07hoNHeeVUOqaHwlsrHgOnuyiQLat06FE=", "user"=>{"name"=>"John", "email"=>"sds@sdsd.com", "skype"=>"123dd", "user_type"=>"", "referred_by"=>""}, "commit"=>"Sign up for Premium"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (15.4ms)[0m  SELECT 1 FROM "users" WHERE "users"."email" = 'sds@sdsd.com' LIMIT 1
+  [1m[36mSQL (32.3ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "referred_by", "skype", "updated_at", "user_type") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Wed, 20 Jun 2012 20:00:40 UTC +00:00], ["email", "sds@sdsd.com"], ["name", "John"], ["referred_by", ""], ["skype", "123dd"], ["updated_at", Wed, 20 Jun 2012 20:00:40 UTC +00:00], ["user_type", ""]]
+  [1m[35m (3.4ms)[0m  commit transaction
+
+Sent mail to sds@sdsd.com (911ms)
+Date: Wed, 20 Jun 2012 14:00:40 -0600
+From: info@palmling.com
+To: sds@sdsd.com
+Message-ID: <4fe22be8ee602_21a03ff96f408b0425334@Nicks-MacBook-Pro.local.mail>
+Subject: Thank you for Signing up with PalmLing for Skype!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Thank you for signing up with <a href='http://skype.palmling.com'>PalmLing for Skype</a>. Your Skype name is: 123dd <br/><br/>Once your payment is processed and confirmed, a member of the PalmLing team will follow-up with you with details on how to
+      access our global community of translators. Please allow 1 hour for us to respond to you. <br/><br/>Thank you, <br/><br/>
+      The PalmLing Team, <br/><a href='http://www.palmling.com'>PalmLing<a/>. <br/><br/>
+      <a href='https://twitter.com/#!/palmling'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a><span> </span><a href='https://twitter.com/#!/palmling'>Twitter</a><br/>
+      <a href='http://www.facebook.com/pages/PalmLing/108198825934073'>
+      <img src='http://therohanaurora.com/files/downloads/icon/facebook_16.png' /></a><span> </span><a href='http://www.facebook.com/pages/PalmLing/108198825934073'>Facebook</a>
+Redirected to http://localhost:3000/users/73
+Completed 302 Found in 1145ms (ActiveRecord: 51.2ms)
+
+
+Started GET "/users/73" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"73"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "73"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /referrals.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:41 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:42 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:42 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-20 14:00:42 -0600
+Served asset /palmling.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-20 14:00:42 -0600
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/free" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Processing by UsersController#new_free as HTML
+  Rendered users/new_free.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /referrals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /bg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-20 14:00:50 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2012-06-20 14:01:01 -0600
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VkCMQYSPzK07hoNHeeVUOqaHwlsrHgOnuyiQLat06FE=", "user"=>{"name"=>"John", "email"=>"sds@1111.com", "skype"=>"123dddd", "user_type"=>"", "referred_by"=>""}, "commit"=>"Sign up for the Trial"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 FROM "users" WHERE "users"."email" = 'sds@1111.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "referred_by", "skype", "updated_at", "user_type") VALUES (?, ?, ?, ?, ?, ?, ?)  [["created_at", Wed, 20 Jun 2012 20:01:01 UTC +00:00], ["email", "sds@1111.com"], ["name", "John"], ["referred_by", ""], ["skype", "123dddd"], ["updated_at", Wed, 20 Jun 2012 20:01:01 UTC +00:00], ["user_type", ""]]
+  [1m[36m (4.5ms)[0m  [1mcommit transaction[0m
+
+Sent mail to sds@1111.com (622ms)
+Date: Wed, 20 Jun 2012 14:01:01 -0600
+From: info@palmling.com
+To: sds@1111.com
+Message-ID: <4fe22bfda6d60_21a03ff96e2d2448254c@Nicks-MacBook-Pro.local.mail>
+Subject: Thank you for Signing up with PalmLing for Skype!
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Thank you for signing up for a trial version of <a href='http://skype.palmling.com'>PalmLing for Skype</a>. Your Skype name is: 123dddd 
+      <br/><br/>
+      Your trial version will expire in 24 hours. You will soon receive a Skype request from 'PalmLingSpanish'.
+      Once you confirm our request, you will be able to make 1 call lasting up to 60 minutes to access  our global community of translators. Please allow 1 hour for us to respond to you. 
+      If you would like to sign up for the <a href='http://skype.palmling.com'>premium version</a>, please visit: <a href='http://skype.palmling.com'>skype.palmling.com</a>.
+      <br/><br/>Thank you, <br/><br/>
+      The PalmLing Team, <br/><a href='http://www.palmling.com'>PalmLing<a/>. <br/><br/>
+      <a href='https://twitter.com/#!/palmling'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a><span> </span><a href='https://twitter.com/#!/palmling'>Twitter</a><br/>
+      <a href='http://www.facebook.com/pages/PalmLing/108198825934073'>
+      <img src='http://therohanaurora.com/files/downloads/icon/facebook_16.png' /></a><span> </span><a href='http://www.facebook.com/pages/PalmLing/108198825934073'>FaceBook</a>
+  Rendered users/thanks_free.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 649ms (Views: 11.8ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /application.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/referrals.css?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /referrals.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/referrals.js?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /referrals.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /bg.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/palmling.png" for 127.0.0.1 at 2012-06-20 14:01:02 -0600
+Served asset /palmling.png - 304 Not Modified (0ms)
