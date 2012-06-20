@@ -7,7 +7,7 @@ class UserMailer < ActionMailer::Base
       :content_type => "text/html", :body => "Thank you for signing up for a trial version of <a href='http://skype.palmling.com'>PalmLing for Skype</a>. Your Skype name is: #{user.skype} 
       <br/><br/>
       You will soon receive a Skype request from 'PalmLingSpanish'.
-      Once you confirm our request, you will be able to make 1 call lasting up to 60 minutes to access  our global community of translators. 
+      Once you confirm our request, you will be able to make 1 call to access  our global community of translators. 
       You can make additional calls by signing up for the <a href='http://skype.palmling.com'>premium version</a> by visiting <a href='http://skype.palmling.com'>skype.palmling.com</a>.
       <br/><br/>Thank you, <br/><br/>
       The PalmLing Team, <br/><a href='http://www.palmling.com'>PalmLing<a/>. <br/><br/>
