@@ -12,7 +12,7 @@
   })();
 
 </script>
-<div id="skype-header" class="row span6 offset3">
+<div id="skype-header" class="row span6 offset4">
 <h5>PalmLing for Skype</h5>
 <h2>Step 1 - Signup</h2>
 <p>Thank you for your interest in PalmLing for Skype! Please complete the form below to get started. <!--a href='http://skype.palmling.com'>Sign up for Premium instead.</a-->
@@ -20,7 +20,12 @@
 </div>
 
 <div class="row">
-  <div class="span6 offset3 temp-skype">
+ <div class="span4" style="background-color: #BCBCBC; border-radius: 5px; color: black;">
+	<h3 style='margin:10px'>Already registered? <a class='btn-medium' href='http://skype.palmling.com/upgrade'>Click<br/>here to upgrade to premium</a></h3>
+ </div>
+
+<div class="row">
+  <div class="span6 temp-skype">
     <%= form_for(@user) do |f| %>
     <div style="class:'errorExplanation, color='#FF0000'"><h3><%= errors_for(@user, "Oops, there was a problem").html_safe %></h3></div>
 
