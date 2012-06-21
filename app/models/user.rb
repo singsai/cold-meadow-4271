@@ -15,7 +15,7 @@ class User < ActiveRecord::Base
   
   validates :name, :presence => true
   validates_presence_of :email  
-  validates_uniqueness_of :email, :message =>"address is already on file. <br/>To use <a href='http://skype.palmling.com/upgrade'>PalmLing for Skype, upgrade to premium</a>"
+  validates_uniqueness_of :email, :message =>"address is already on file. <br/><a class='btn btn-success btn-large' href='http://skype.palmling.com/upgrade'>Upgrade to premium</a>"
   validates_format_of :email, :with => /^[-a-z0-9_+\.]+\@([-a-z0-9]+\.)+[a-z0-9]{2,4}$/i
   validates :skype, :presence => true
 

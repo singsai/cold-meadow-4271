@@ -21,6 +21,7 @@
 
 <div class="row">
  <div class="span4" style="background-color: #BCBCBC; border-radius: 5px; color: black;">
+	<h3 style='margin:10px'>Already registered? Click<br/><a class='btn-success btn-medium' href='http://skype.palmling.com/upgrade'>here to upgrade to premium</a></h3>
   <h4 style="margin: 10px">Palmling for Skype Premium Pricing:</h4>	
 
 <ul>
@@ -31,7 +32,7 @@
  </div>
   <div class="span6 temp-skype">
     <%= form_for(@user) do |f| %>
-      <div style="class:'errorExplanation, color='#FF0000'"><h3><%= errors_for(@user, "Oops, there was a problem").html_safe %></h3></div>
+      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
 
       <%= f.label :name %>
       <%= f.text_field :name, :placeholder => "First and Last" %>

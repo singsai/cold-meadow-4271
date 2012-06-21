@@ -79,7 +79,7 @@ input[type="image"]
 	padding: 5px;
 }
 
-#errorExplanation h3, a, a:hover
+#errorExplanation a, a:hover
 {	
 	color: red;
 }
@@ -93,4 +93,14 @@ input[type="image"]
 {
 	color: black;
 	font-weight: bold;
+}
+
+.userErrors
+{
+	color:red;
+}
+
+.span6
+{
+	width:500px;
 }
