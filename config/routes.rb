@@ -13,7 +13,7 @@ Pling::Application.routes.draw do
   
   #match 'home', to: 'static_pages#home', as: :home, :via => :get
   #root :to => redirect("http://www.verbalizeit.com")
-
+  
   # match '/profile', to: 'static_pages#profile'
   # match '/admin', to: 'static_pages#admin'
   # match '/register', to: 'static_pages#register'
@@ -21,8 +21,10 @@ Pling::Application.routes.draw do
   # match '/about', to: 'static_pages#about'
   # match '/contact', to: 'static_pages#contact'
   match '/verbalizeitforskypeconfirmation', to: 'static_pages#thanks'
-
+  
   get '/upgrade', to: 'users#upgrade'
+  match '/premium', to: 'users#new'
+  match '/new', to: 'users#new'
   #match '/thanks', to: 'users#thanks'
 
   # The priority is based upon order of creation:
