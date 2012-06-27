@@ -25,6 +25,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :assets do
+	gem "twitter-bootstrap-rails"
+end
+
 gem 'jquery-rails'
 
 group :production do

@@ -1,0 +1,20 @@
+   <header>
+        <div class="container">
+           <div class="topnav">
+
+                <%= link_to "be a translator", translator_home_path %> |
+                <%= link_to "pricing", '#' %> |
+                <%= link_to "about us", about_path %> |
+                <% if signed_in? %>
+                  <%= link_to('sign out', destroy_translator_session_path) if current_translator  %>   
+                  <%= link_to('sign out', destroy_customer_session_path) if current_customer  %>      
+                <% else %>
+                  <%= link_to('sign in', new_customer_session_path, :method => :get)  %>    
+                  
+                <% end %>
+
+            </div>
+            <a href="/"><%=  link_to image_tag("v2/logo.png", :class => 'logo', :alt => 'Verbalize.it'), root_path %></a>
+        </div><!-- container -->
+        <div class="heavydivide"></div>
+    </header>

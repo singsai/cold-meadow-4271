@@ -1,0 +1,65 @@
+<%= render ('shared/head') %>
+<body class="inner">
+
+    <header>
+        <div class="container">
+        <a class="signin" href="#">Sign in</a>    
+            
+        <%=  link_to image_tag("v2/logo.png", :alt => 'Verbalize.it', :class => 'logo'), root_path %>
+        </div><!-- container -->
+    </header>
+
+    <section class="map translatorstories">
+        <div class="caption">
+            <div class="container">
+                Lin Mei lives in New York. She speaks English and Mandarin, <br> and wants to earn some extra money between classes.
+            </div>
+        </div>
+        <div class="container">
+            <div class="map-container">
+                <%= image_tag "v2/translator-story-user1.png",:class => 'user1' %>
+                <%= image_tag "v2/translator-story-user2.png",:class => 'user2' %>
+                <%= image_tag "v2/translator-story-translator.png",:class => 'translator' %>
+              
+                <div class="indicators">
+                    <a href="#" class="active"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div><!-- ./container -->
+    </section>
+
+    <section class="process">
+        <div class="container">
+
+            <div class="span12"><h1>Become a translator in just in 5 minutes</h1><br></div>
+            <div class="span4 step">
+                <img src="img/process-arrow.png">
+                <h2>Sign Up</h2>
+                <p>Give us your phone number <br> and a few other details.</p>
+            </div>
+            <div class="span4 step">
+                <img src="img/process-arrow.png">
+                <h2>Show Your Skills</h2>
+                <p>Take a quick profficiency test <br> in your languages.</p>
+            </div>
+            <div class="span4 step">
+                <h2>Start Translating</h2>
+                <p>Earn money by translating <br> conversations in your free time.</p>
+            </div>
+            <div class="span12">
+                <br><a href="#" class="signup">Cool, Sign Me Up</a>
+            </div>
+
+        </div><!-- ./container -->
+    </section>
+
+  
+
+            
+
+   <%= render ('shared/footer') %>

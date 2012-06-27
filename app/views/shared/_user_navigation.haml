@@ -1,0 +1,17 @@
+- if current_user
+  = t(:logout, :default => 'Logout')
+  %br
+  :ruby
+    current_logout_path = case
+                            when current_business   then destroy_business_session_path
+                            when current_customer   then destroy_customer_session_path
+                            when current_translator then destroy_translator_session_path
+                            when current_admin      then destroy_admin_session_path
+                          end
+  %a{ :href => current_logout_path , :class => 'logout' }
+    %img{:src => '/images/login_lock.png'}
+- else
+  = t(:login, :default => 'Login')
+  %br
+  %a{:href => '#', :id => 'show-panel'}
+    %img{:src => '/images/login_lock.png'}

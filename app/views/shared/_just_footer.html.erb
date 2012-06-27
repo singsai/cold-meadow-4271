@@ -1,0 +1,49 @@
+    <footer>
+        <div class="container affiliates">
+            <div>as seen on</div>
+            
+            <%= link_to "", '#', :class => "travelchannel" %>
+            <%= link_to "", '#', :class => "nationalgeographic" %>
+            <%= link_to "", '#', :class => "frommers" %>
+            <%= link_to "", '#', :class => "lonelyplanet" %>
+            <%= link_to "", '#', :class => "fodors" %>
+            <%= link_to "", '#', :class => "kayak" %>
+        </div><!-- ./container -->
+        <div class="container links">
+            <ul class="span3">
+                <li class="title">more about verbalize.it</li>
+                <li><%= link_to "about us", '#'%></li>
+                <li><%= link_to "the team", '#'%></li>
+                <li><%= link_to "traveler FAQ", '#'%></li>
+                <li><%= link_to "press", '#'%></li>
+            </ul>
+            <ul class="span3">
+                <li class="title">our services</li>
+                <li><%= link_to "pricing", '#'%></li>
+                <li><%= link_to "group rates", '#'%></li>
+                <li><%= link_to "business rates", '#'%></li>
+                <li><%= link_to "verbalize.it for your site", '#'%></li>
+            </ul>
+            <ul class="span3">
+                <li class="title">translators</li>
+                <li><%= link_to "translator FAQ", '#' %></li>
+                <li><%= link_to "become a translator", '#' %></li>
+            </ul>
+            <ul class="span3 contact">
+
+                <li> <%= link_to "follow us on twitter", '#', :class => "twitter" %></li>
+                <li> <%= link_to "follow us on facebook", '#', :class => "facebook" %></li>
+                <li> <%= link_to "drop an email", '#', :class => "email" %></li>
+                <li> <%= link_to "give us a call", '#', :class => "call" %></li>
+            </ul>
+        </div><!-- ./container -->
+        <div class="container copyright">
+            Copyright 2012, Verbalize.it Inc  All Rights Reserved.
+        </div><!-- ./container -->
+        <%= render('shared/signin_popup') %>
+    </footer>
+    <%= render('shared/js/global_js') %>
+    <%= yield :footer_js %>
+
+</body>
+</html>

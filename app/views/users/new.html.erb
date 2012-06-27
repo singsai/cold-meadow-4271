@@ -13,41 +13,42 @@
 
 </script>
 <div id="skype-header" class="row span7 offset4">
-<h5>PalmLing for Skype - <br/>English &lt;&gt; Spanish Translation</h5>
+<h1>VerbalizeIt for Skype - <br/>English &lt;&gt; Spanish Translation</h1>
 <h2>Step 1 - Signup</h2>
-<p>Thank you for your interest in PalmLing for Skype!  You just need to sign up and then select a plan.  Please complete the form below to get started.
+<p>Thank you for your interest in VerbalizeIt for Skype!  You just need to sign up and then select a plan.  Please complete the form below to get started.
 </p>
 </div>
 
 <div class="row">
  <div class="span4" style="background-color: #BCBCBC; border-radius: 5px; color: black;">
-	<h3 style='margin:10px'>Already registered? <a class='btn-medium' href='http://skype.palmling.com/upgrade'>Click<br/>here to upgrade to premium</a></h3>  <h4 style="margin: 10px">Palmling for Skype Premium Pricing:</h4>	
+	<h3 style='margin:10px'>Already registered? <a class='btn-medium' href='http://skype.verbalizeit.com/upgrade'><br/>Upgrade to premium</a></h3>  <h2 style="margin: 10px">Premium Pricing:</h2>	
 
 <ul>
 	<li>60 Minutes: $25.00 USD</li>
 	<li>240 Minutes (4 hrs): $75.00 USD</li>
-	<li>1440 Minutes (24 hrs): $350.00 USD</li>
+	<li>24 hrs: $350.00 USD</li>
 </ul>
  </div>
-  <div class="span6 temp-skype">
-    <%= form_for(@user) do |f| %>
-      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
+  <div class="span6">
+      <div class="container">
+          <div class="span5">
+			<div class="control-group">
+			    <%= form_for(@user) do |f| %>
+			      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
 
-      <%= f.label :name %>
-      <%= f.text_field :name, :placeholder => "First and Last" %>
+			      <%= f.label :name, :class=>"control-label" %>
+			      <%= f.text_field :name, :placeholder => "First and Last" %>
 
-      <%= f.label :email %>
-      <%= f.text_field :email %>
+			      <%= f.label :email, :class=>"control-label" %>
+			      <%= f.text_field :email %>
 
-      <%= f.label :skype %>
-      <%= f.text_field :skype, :placeholder => "your username on Skype" %>
+			      <%= f.label :skype, :class=>"control-label" %>
+			      <%= f.text_field :skype, :placeholder => "your username on Skype" %>
 			
-      <%= f.submit "Sign up for Premium", class: "btn btn-large btn-primary" %>
-			
-			<div class='hideme'>
-			<%= f.text_field :user_type %><%= f.text_field :referred_by %>
+			      <%= f.submit "Sign up for Premium", class: "btn btn-large btn-primary" %>						
+			    <% end %>
 			</div>
-			
-    <% end %>
+		</div>
+	</div>
   </div>
 </div>

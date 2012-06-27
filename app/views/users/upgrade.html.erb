@@ -1,8 +1,16 @@
 <%= provide(:title, 'Upgrade to Premium') %>
 <div id="skype-header" class="row span6 offset3">
-<h1>PalmLing for Skype</h1>
+<h1>VerbalizeIt for Skype</h1>
 <h2>Select a Plan</h2>
 <p><span class="skype-name"></span><br/>To upgrade, please select a plan that fits your needs.
 </p>
 </div>
-<%= render 'paypal' %>
+<div class="span6">
+    <div class="container">
+        <div class="span5">
+			<div class="control-group">
+				<%= render 'paypal' %>
+			</div>
+		</div>
+	</div>
+</div>

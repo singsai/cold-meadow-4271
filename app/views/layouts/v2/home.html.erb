@@ -1,0 +1,86 @@
+<% content_for :footer_js do %>
+ <%= javascript_include_tag "init_carousel" %>
+<% end %>
+
+<%= render ('shared/just_head') %>
+<body class="home">
+<header>
+	<% flash.each do |key, value| %>
+	  <div style="text-align: right" class="alert alert-<%= key %>"><%= value %></div>
+	<% end %>
+<a class="business-fold" href="#"></a>
+    <div class="container">
+        <div class="span5">
+            <div class="topnav">
+                <%= render('shared/header_nav') %>
+            </div>
+            <div class="logo-wrapper">
+                <%= image_tag "logo.png", :alt => "VerbalizeIt.com", :class => 'logo' %>
+                <%= image_tag "tagline.png", :alt => "human translators. any language. any device. any time", :class => 'tagline' %>
+            </div>
+        </div><!-- ./columns -->
+        <div id="icons" class="span1">
+            <a id="s-icon" class="product-icon smartphone" href="s-desc"></a>
+            <a id="o-icon" class="product-icon oldphone" href="o-desc"></a>
+            <a id="w-icon" class="product-icon web" href="w-desc"></a>
+            <a id="a-icon" class="product-icon api" href="a-desc"></a>
+        </div>
+        <div id="tabs">
+            <div id="s-desc" class="span6 product-description smartphone">
+                <div class="desc-inner">
+                    <h2>Get the app for your iPhone or Android device</h2>
+                    <%=  link_to image_tag("app-app-store.png"), '#', :class => 'app-store' %>
+                    <%=  link_to image_tag("app-android.png"), '#', :class => 'android' %>
+                    <%= image_tag "iphone-mockup.png", :alt => "VerbalizeIt App for iPhone and Android", :class => 'teaser' %>
+                    
+                </div>
+            </div><!-- ./columns-->
+            <div id="o-desc" class="span6 product-description oldphone">
+                <div class="desc-inner">
+                    <h2>Have an older phone? No problem. We've got you covered.</h2>
+                    <p>Just sign up for an account to try it for free.</p>
+                    <%= link_to "Try for Free", '#', :class => "leadbutton" %>
+                </div>
+            </div><!-- ./columns-->
+            <div id="w-desc" class="span6 product-description web">
+                <div class="desc-inner">
+                    <h2>Get the verbalizeit widget for your web site and start communicating with visitors from around the world.</h2>
+                    <p>Drop a line to find out how to integrate verbalizeit on your site today.</p>
+                    <%= link_to "Contact Us", '#', :class => "leadbutton" %>
+                    
+                </div>
+            </div><!-- ./columns-->
+            <div id="a-desc" class="span6 product-description api">
+                <div class="desc-inner">
+                    <h2>Use the verbalizeit API to take advantage of our platform in your web app, mobile app, or anywhere.</h2>
+                    <p>Sign up to be notified when the API is publicly available. (We promise not to share your email address.)</p>
+					
+                    <!-- <form class="form">
+                        <input type="text" placeholder="youraddress@email.com"><a class="submit leadbutton" href="#">Sign Up</a>
+                    </form> -->
+                </div>
+            </div><!-- ./columns-->
+        </div><!-- ./tabs -->
+    </div><!-- container -->
+    <div class="heavydivide"></div>
+</header>
+
+    <section class="testimonials">
+        <div class="container">
+            <%= image_tag "testimonial-fade-left.png",:class => 'fader left' %>
+            <%= image_tag "testimonial-fade-right.png", :class => 'fader right' %>
+            <div id="myCarousel" class="container-inner carousel slide"><!-- width and position will be calculated on the fly by js -->
+             
+            <%= render ('shared/home_slider') %>    
+       
+            </div>
+        </div><!-- ./container -->
+    </section>
+
+       <section class="map">
+        <div class="container">
+            <div class="map-title">We’re All Over — Here are some people using <span class="highlight">verbalizeit</span> right now</div>
+            <div class="map-container"></div>
+        </div><!-- ./container -->
+        </section><!-- ./section -->
+<%= render ('shared/just_footer') %>

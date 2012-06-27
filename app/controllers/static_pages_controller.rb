@@ -1,4 +1,8 @@
 class StaticPagesController < ApplicationController
+	def home
+		render :layout => 'v2/home'
+	end
+
   def profile
   end
 
