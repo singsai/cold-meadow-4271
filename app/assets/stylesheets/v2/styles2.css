@@ -85,7 +85,7 @@ a.product-icon:hover
 .available-button
 {
 
-    background: url("/images/v2/available_on.png") no-repeat scroll 0 0 transparent;
+    background: url("/assets/available_on.png") no-repeat scroll 0 0 transparent;
     border-radius: 7px 7px 7px 7px;
     bottom: 0;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
@@ -100,7 +100,7 @@ a.product-icon:hover
 }
 .unavailable-button
 {
-	background: url("/images/v2/available_off.png") no-repeat scroll 0 0 transparent;
+	background: url("/assets/available_off.png") no-repeat scroll 0 0 transparent;
     border-radius: 7px 7px 7px 7px;
     bottom: 0;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
