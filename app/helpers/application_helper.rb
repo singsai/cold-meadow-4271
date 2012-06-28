@@ -1,10 +1,10 @@
 module ApplicationHelper
   def logo
-    logo = image_tag("palmling.png", alt: "PalmLing", class: "round")  
+    logo = image_tag("verbalizeit.png", alt: "VerbalizeIt", class: "round")  
   end  
   
   def full_title(page_title)
-    base_title = "PalmLing"
+    base_title = "VerbalizeIt"
     if page_title.empty?
       base_title
     else
