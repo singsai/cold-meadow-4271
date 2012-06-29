@@ -50,19 +50,18 @@
 		<SkypeApp_RemovalRequired></SkypeApp_RemovalRequired><!--Specify Y if you would like to remove program from App Directory-->
         <SkypeApp_Features_Line1>Languages: Spanish to English and English to Spanish.</SkypeApp_Features_Line1><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line2>1 hour free trial before you buy.</SkypeApp_Features_Line2><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line3>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line4>Visit Verbalizeit.com to learn more.</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line5>Register for a free trial or premium version</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line6>Dial your contact on Skype</SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line7>Select the "+" button to add a caller</SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line8>Add the VerbalizeIt translator contact to your conversation</SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line9>Ask the translator to translate between you and the other participant. Enjoy!</SkypeApp_Features_Line9><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line10>Free trial</SkypeApp_Features_Line10><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line11>Premium pricing of: $25 for 60 minutes</SkypeApp_Features_Line11><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line12>$75 for 240 minutes (4 hours)</SkypeApp_Features_Line12><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line13>$350 for 1,440 minutes (24 hours)</SkypeApp_Features_Line13><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line14></SkypeApp_Features_Line14><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line15></SkypeApp_Features_Line15><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line3>Register for a free trial or premium version</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line4>Dial your contact on Skype</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line5>Select the "+" button to add a caller</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line6>Add the VerbalizeIt translator contact to your conversation</SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line7>Ask the translator to translate between you and the other participant. Enjoy!</SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line8>After your trial expires, purchase additional minutes:</SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line9>$25 for 60 minutes, </SkypeApp_Features_Line9><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line10>$75 for 240 minutes (4 hours),</SkypeApp_Features_Line11><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line11>and $350 for 1,440 minutes (24 hours)</SkypeApp_Features_Line12><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line12>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line13><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line13>Visit VerbalizeIt.com to learn more.</SkypeApp_Features_Line14><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line14></SkypeApp_Features_Line15><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Requirements_Line1>Windows 7, MAC OS.</SkypeApp_Requirements_Line1><!--Program Requirements. If void, just leave blank-->
         <SkypeApp_Requirements_Line2>Skype 4.0 or higher recommended.</SkypeApp_Requirements_Line2><!--Program Requirements. If void, just leave blank-->
         <SkypeApp_Requirements_Line3></SkypeApp_Requirements_Line3><!--Program Requirements. If void, just leave blank-->
