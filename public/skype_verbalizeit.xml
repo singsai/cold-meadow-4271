@@ -26,15 +26,15 @@
         <Program_Icon_URL>http://skype.verbalizeit.com/assets/verbalizeit_icon_60.png</Program_Icon_URL><!--URL pointed to the App icon. Recommended resolution:60x60, type:jpg, gif, png. *All images have to save as RGB web format.-->
 		<DeveloperLogo_URL>http://skype.verbalizeit.com/assets/verbalizeit_icon_120.png</DeveloperLogo_URL><!--URL pointed to the developer logo. Recommended resolution:140x90, type:jpg, gif, png. *All images have to save as RGB web format.-->
         <Landing_Page_URL>http://skype.verbalizeit.com/free</Landing_Page_URL><!--This is the url where you want users to go after they click on a "get it now" button on the App Directory-->
-        <Program_Screenshot1>http://skype.verbalizeit.com/assets/verbalizeit_icon_430.png</Program_Screenshot1><!--Main image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
-        <Program_Screenshot2></Program_Screenshot2><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
-        <Program_Screenshot3></Program_Screenshot3><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
-        <Program_Screenshot4></Program_Screenshot4><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
-        <Program_Screenshot5></Program_Screenshot5><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
-        <Program_Screenshot6></Program_Screenshot6><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
+        <Program_Screenshot1>http://skype.verbalizeit.com/assets/skype-promo.png</Program_Screenshot1><!--Main image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
+        <Program_Screenshot2>http://skype.verbalizeit.com/assets/Screenshot 1.tiff</Program_Screenshot2><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
+        <Program_Screenshot3>http://skype.verbalizeit.com/assets/Screenshot 2.tiff</Program_Screenshot3><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
+        <Program_Screenshot4>http://skype.verbalizeit.com/assets/Screenshot 3.tiff</Program_Screenshot4><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
+        <Program_Screenshot5>http://skype.verbalizeit.com/assets/Screenshot 4.png</Program_Screenshot5><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
+        <Program_Screenshot6>http://skype.verbalizeit.com/assets/Screenshot 5.png</Program_Screenshot6><!--Additional image URL. Recommended resolution: 430x330, type:jpg, gif, png. Please show the app against the backdrop of a desktop, rather than simply the app itself. *All images have to save as RGB web format. If void, just leave blank-->
 	</Program_Info>
     <Skype_Info>
-	    <SkypeAppDirectory_ID></SkypeAppDirectory_ID><!--APP ID in the App Directory, for the first submission please leave it blank, you will receive generated ID from App Directory admin by email-->
+	    <SkypeAppDirectory_ID>84716</SkypeAppDirectory_ID><!--APP ID in the App Directory, for the first submission please leave it blank, you will receive generated ID from App Directory admin by email-->
 		<SkypeApp_Category>Translators</SkypeApp_Category><!--Program category,
 		pick primary category, list of available categories you can find here:
 		It need to be one of the examples we're including (including case sensitivity)
@@ -50,17 +50,17 @@
 		<SkypeApp_RemovalRequired></SkypeApp_RemovalRequired><!--Specify Y if you would like to remove program from App Directory-->
         <SkypeApp_Features_Line1>Languages: Spanish to English and English to Spanish.</SkypeApp_Features_Line1><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line2>1 hour free trial before you buy.</SkypeApp_Features_Line2><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line3> Multiple pricing options: 60 minutes to 24 hours.</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line4>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line5>Visit Verbalizeit.com to learn more.</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line6></SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line7></SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line8></SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line9></SkypeApp_Features_Line9><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line10></SkypeApp_Features_Line10><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line11></SkypeApp_Features_Line11><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line12></SkypeApp_Features_Line12><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line13></SkypeApp_Features_Line13><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line3>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line4>Visit Verbalizeit.com to learn more.</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line5>Register for a free trial or premium version</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line6>Dial your contact on Skype</SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line7>Select the "+" button to add a caller</SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line8>Add the VerbalizeIt translator contact to your conversation</SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line9>Ask the translator to translate between you and the other participant. Enjoy!</SkypeApp_Features_Line9><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line10>Free trial</SkypeApp_Features_Line10><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line11>Premium pricing of: $25 for 60 minutes</SkypeApp_Features_Line11><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line12>$75 for 240 minutes (4 hours)</SkypeApp_Features_Line12><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line13>$350 for 1,440 minutes (24 hours)</SkypeApp_Features_Line13><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line14></SkypeApp_Features_Line14><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line15></SkypeApp_Features_Line15><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Requirements_Line1>Windows 7, MAC OS.</SkypeApp_Requirements_Line1><!--Program Requirements. If void, just leave blank-->
