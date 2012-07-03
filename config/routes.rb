@@ -11,7 +11,7 @@ Pling::Application.routes.draw do
   match '/traveler', to: 'users#new', user_type: "traveler"
   match '/translator', to: "users#new", user_type: "translator"
   
-  #match 'home', to: 'static_pages#home', as: :home, :via => :get
+  match 'home', to: 'static_pages#home', as: :home, :via => :get
   #root :to => redirect("http://www.verbalizeit.com")
   
   # match '/profile', to: 'static_pages#profile'

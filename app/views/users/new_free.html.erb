@@ -13,58 +13,56 @@
   })();
 
 </script>
-<div id="skype-header" class="row span7 offset4">
-<h1><span style='margin:0px 0px 0px 40px'>VerbalizeIt for Skype</span><br/>English - Spanish Translation</h1>
-<h2 style='margin:10px 0px 0px 30px'>Step 1 - Signup</h2>
-<p style='margin:20px 0px 0px 0px'>Thank you for your interest in VerbalizeIt for Skype!<br/>Please complete the form below to get started.
-</p>
-</div>
 
-<div class="row">
- <div class="span4" style="background-color: #BCBCBC; border-radius: 5px; color: black;">
-	<h3 style='margin:10px 10px 10px 50px'>Already Registered? <br/><a class='btn-medium' href='http://skype.verbalizeit.com/upgrade'>Upgrade to Premium</a></h3>
- </div>
 
- <div class="span6">
-     <div class="container">
-         <div class="span5">
-			<div class="control-group" style='margin:0px 0px 0px 20px'>
-			    <%= form_for(@user) do |f| %>
-			      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
-
+<section class="content skypesignup">
+    <div class="container">
+        <div class="span6">
+		    <%= form_for(@user, :html => { :class=>"form-horizontal" }) do |f| %>
+		      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
+                <div class="control-group">
 			      <%= f.label :name, :class=>"control-label" %>
-			      <%= f.text_field :name, :placeholder => "First and Last" %>
-
+                    <div class="controls">
+				      <%= f.text_field :name, :placeholder => "First and Last", :class => "span4" %>
+                    </div>
+                </div>
+                <div class="control-group">
 			      <%= f.label :email, :class=>"control-label" %>
-			      <%= f.text_field :email %>
+                    <div class="controls">
+				      <%= f.text_field :email, :class => "email span4" %>
+                    </div>
+                </div>
+                <div class="control-group">
+			      <%= f.label :skype, "Skype Handle", :class=>"control-label" %>
+                    <div class="controls">
+				      <%= f.text_field :skype, :class=>"skypehandle span4", :placeholder => "your username on Skype" %>
+                    </div>
+                </div>
 
-			      <%= f.label :skype, :class=>"control-label" %>
-			      <%= f.text_field :skype, :placeholder => "your username on Skype" %>
+                <div class="control-group">
+                <label class="control-label">Language I Need Translated</label>
+                <div class="controls">
+					<%= f.select :preferred_language, [ ['Spanish'], ['Mandarin'], ['Hindi'] ], :html => {:class=>"span4 preferredlanguage"} %>
+                </div>
 
+            </div>
+                <div class="control-group">
+                    <label class="control-label">&nbsp;</label>
+                    <div class="controls">
+                        <input type="submit" class="submit major" value="Sign Up">
+                    </div>
+                </div>
+			 <% end %>	
+        </div>
+        <div class="span5 offset1">
+            <h1 class="highlight">Try VerbalizeIt's new<br> Skype app for free.</h1>
+            <br>
+			
+            <img src="/assets/skype-logo.png">
+			<br><br>
+			<h2>Already Registered?</h2> <a class='btn-medium' href='http://skype.verbalizeit.com/upgrade'><span style="margin-left:30px">Upgrade to Premium</span></a>
+			<br/><br/>
+        </div>
 
-
-
-
-	<br/>
-	<input type="submit" value="Sign up for the Trial" name="commit" class="btn btn-large btn-primary">
-	      <br /><br />	
-	  <div><p style="font-size: 16px"> Want more minutes?</p> <a style="width: 430px; height: 15px" class="btn btn-success btn-large" href="http://skype.verbalizeit.com">Sign up for Premium</a></div>		
-	
-	  <!--input type="submit" value="Signup for the Trial" name="commit" class="btn btn-large btn-primary">
-	  <div style="float: right"> <a class="btn btn-success btn-large" href="http://skype.verbalizeit.com">Sign up for Premium</a></div>
-	 <br style="clear:both;" /-->		
-    <!--%= button_tag "Signup", class: "btn btn-large btn-primary" %-->
-	<!--a class="btn btn-primary btn-large" href="http://skype.verbalizeit.com">Signup</a>
-	<a class="btn btn-primary btn-large" href="http://skype.verbalizeit.com">Sign up for Premium</a-->
-	<!--%= button_tag 'Sign up for Premium', :class=>'btn btn-primary btn-large', :name => 'premium-signup' %-->
-	
-
-		<!--span><a class="btn btn-primary btn-large" href="http://skype.verbalizeit.com">Sign up for Premium</a></span-->
-			<div class='hideme'>
-			</div>			
-	 <% end %>	
-			</div>
-		</div>
-	</div>
-  </div>
-</div>
+    </div><!-- ./container -->
+</section>

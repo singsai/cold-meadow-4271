@@ -1,4 +1,13 @@
 <%= provide(:title, 'for Skype - Signup Complete') %>
+<%
+if @user.preferred_language == "Spanish"
+  @lingo = 'VerbalizeItSpanish'
+elsif @user.preferred_language == "Mandarin"
+  @lingo = 'VerbalizeItMandarin'
+else
+  @lingo = 'VerbalizeItHindi'
+end
+%>
 <div class="span6">
     <div class="container">
         <div class="span5">
@@ -12,7 +21,7 @@
 				<p>Thank you for signing up for a trial version of <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. 
 				<br/><br/>
 	
-				You will soon receive a Skype request from "VerbalizeItSpanish".
+				You will soon receive a Skype request from "<%=@lingo%>".
 				<br/><br/>
 				Once you confirm our request, you will be able to make 1 call to access our global community of translators. 
 				<br/><br/>

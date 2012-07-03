@@ -10,7 +10,7 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :email, :skype, :user_type, :referred_by
+  attr_accessible :name, :email, :skype, :user_type, :referred_by, :preferred_language
   #after_create :send_welcome_email
   
   validates :name, :presence => true

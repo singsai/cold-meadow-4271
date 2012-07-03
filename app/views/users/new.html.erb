@@ -13,43 +13,59 @@
   })();
 
 </script>
-<div id="skype-header" class="row span6 offset4">
-<h1><span style='margin:0px 0px 0px 40px'>VerbalizeIt for Skype</span> <br/>English - Spanish Translation</h1>
-<h2 style='margin:10px 0px 0px 30px'>Step 1 - Signup</h2>
-<p style='margin:20px 0px 0px 0px'>Thank you for your interest in VerbalizeIt for Skype!  <br/>Please complete the form below to get started.
-</p>
-</div>
-
-<div class="row">
- <div class="span4" style="background-color: #BCBCBC; border-radius: 5px; color: black;">
-	<h3 style='margin:10px 10px 10px 50px'>Already Registered? <a class='btn-medium' href='http://skype.verbalizeit.com/upgrade'><br/>Upgrade to Premium</a></h3>  
-	<h2 style="margin:10px 10px 10px 50px">Premium Pricing:</h2>	
-<ul  style="margin:10px 10px 10px 70px">
-	<li>1 hour: $25.00 USD</li>
-	<li>4 hours: $75.00 USD</li>
-	<li>24 hours: $350.00 USD</li>
-</ul>
- </div>
-  <div class="span6">
-      <div class="container">
-          <div class="span5">
-			<div class="control-group" style='margin:0px 0px 0px 20px'>
-			    <%= form_for(@user) do |f| %>
-			      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
-
+<section class="content skypesignup">
+    <div class="container">
+        <div class="span6">
+		    <%= form_for(@user, :html => { :class=>"form-horizontal" }) do |f| %>
+		      <div style="class:'errorExplanation, color='#FF0000'"><%= errors_for(@user, "Oops, there was a problem").html_safe %></div>
+                <div class="control-group">
 			      <%= f.label :name, :class=>"control-label" %>
-			      <%= f.text_field :name, :placeholder => "First and Last" %>
-
+                    <div class="controls">
+				      <%= f.text_field :name, :placeholder => "First and Last", :class => "span4" %>
+                    </div>
+                </div>
+                <div class="control-group">
 			      <%= f.label :email, :class=>"control-label" %>
-			      <%= f.text_field :email %>
+                    <div class="controls">
+				      <%= f.text_field :email, :class => "email span4" %>
+                    </div>
+                </div>
+                <div class="control-group">
+			      <%= f.label :skype, "Skype Handle", :class=>"control-label" %>
+                    <div class="controls">
+				      <%= f.text_field :skype, :class=>"skypehandle span4", :placeholder => "your username on Skype" %>
+                    </div>
+                </div>
 
-			      <%= f.label :skype, :class=>"control-label" %>
-			      <%= f.text_field :skype, :placeholder => "your username on Skype" %>
-			
-			      <%= f.submit "Sign up for Premium", class: "btn btn-large btn-primary" %>						
-			    <% end %>
-			</div>
-		</div>
-	</div>
-  </div>
-</div>
+                <div class="control-group">
+                <label class="control-label">Language I Need Translated</label>
+                <div class="controls">
+					<%= f.select :preferred_language, [ ['Spanish'], ['Mandarin'], ['Hindi'] ], :html => {:class=>"span4 preferredlanguage"} %>
+                </div>
+
+            </div>
+                <div class="control-group">
+                    <label class="control-label">&nbsp;</label>
+                    <div class="controls">
+                        <input type="submit" class="submit major" value="Sign up for Premium">
+                    </div>
+                </div>
+			 <% end %>	
+        </div>
+        <div class="span5 offset1">
+            <h2 class="highlight">Premium Pricing:</h2>
+			<ul>
+				<li>1 hour: $25.00 USD</li>
+				<li>4 hours: $75.00 USD</li>
+				<li>24 hours: $350.00 USD</li>
+			</ul>
+			<br/>
+            <img src="/assets/skype-logo.png">
+
+            <br>
+			<h3>Already a Premium Member?</h3> <a class='btn-medium' href='http://skype.verbalizeit.com/upgrade'><span style="margin-left:30px">Add more minutes</span></a>
+			<br/><br/><br/>
+        </div>
+
+    </div><!-- ./container -->
+</section>
