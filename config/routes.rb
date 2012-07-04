@@ -25,7 +25,7 @@ Pling::Application.routes.draw do
   get '/upgrade', to: 'users#upgrade'
   match '/premium', to: 'users#new'
   match '/new', to: 'users#new'
-  #match '/thanks', to: 'users#thanks'
+  #match '/thanks', to: 'users#thanks_free'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

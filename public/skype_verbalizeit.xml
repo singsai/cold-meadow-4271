@@ -20,9 +20,9 @@
 		<Program_OS_Support>Windows 7, MAC OS</Program_OS_Support><!--Specify all supported operating systems separated by comma and space-->
 		<Program_Win_Support>Y</Program_Win_Support><!--Specify Y if the program supports Windows-->
 		<Program_Mac_Support>Y</Program_Mac_Support><!--Specify Y if the program supports Mac OS-->
-        <Program_Language>English</Program_Language><!--Specify all supported languages separated by comma and space-->
+        <Program_Language>English, Spanish, Hindi, Chinese</Program_Language><!--Specify all supported languages separated by comma and space-->
 		<Program_Desc_Short>Human translators at the touch of a button</Program_Desc_Short><!--Short description, please use no more than 40 characters, no HTML -->
-        <Program_Desc_Long>Having trouble communicating due to a language barrier? Drag and drop a live human translator into your conversations!</Program_Desc_Long><!--Long description, please use no more than 300 characters, HTML available -->
+        <Program_Desc_Long>Having trouble communicating due to a language barrier? Drag and drop a live human translator into your conversations! Available in English, Spanish, Hindi and Mandarin Chinese.</Program_Desc_Long><!--Long description, please use no more than 300 characters, HTML available -->
         <Program_Icon_URL>http://skype.verbalizeit.com/assets/verbalizeit_icon_60.png</Program_Icon_URL><!--URL pointed to the App icon. Recommended resolution:60x60, type:jpg, gif, png. *All images have to save as RGB web format.-->
 		<DeveloperLogo_URL>http://skype.verbalizeit.com/assets/verbalizeit_icon_120.png</DeveloperLogo_URL><!--URL pointed to the developer logo. Recommended resolution:140x90, type:jpg, gif, png. *All images have to save as RGB web format.-->
         <Landing_Page_URL>http://skype.verbalizeit.com/free</Landing_Page_URL><!--This is the url where you want users to go after they click on a "get it now" button on the App Directory-->
@@ -48,16 +48,16 @@
 			-->
         <SkypeApp_skypekit>N</SkypeApp_skypekit><!--Specify Y if you used SkypeKit to build the program-->
 		<SkypeApp_RemovalRequired></SkypeApp_RemovalRequired><!--Specify Y if you would like to remove program from App Directory-->
-        <SkypeApp_Features_Line1>Languages: Spanish to English and English to Spanish.</SkypeApp_Features_Line1><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line2>1 hour free trial before you buy.</SkypeApp_Features_Line2><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line3>Register for a free trial or premium version.</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line4>Dial your contact on Skype.</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line5>Select the "+" button to add a caller.</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line6>Add the VerbalizeIt translator contact to your conversation.</SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line7>Ask the translator to translate between you and the other participant. Enjoy!.</SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line8>After your trial expires, purchase additional minutes: $25 for 60 minutes, $75 for 240 minutes (4 hours), and $350 for 1,440 minutes (24 hours).</SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line9>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line9><!--Features of the program. If void, just leave blank-->
-        <SkypeApp_Features_Line10>Visit VerbalizeIt.com to learn more.</SkypeApp_Features_Line10><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line1>1 hour free trial before you buy.</SkypeApp_Features_Line1><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line2>Register for a free trial or premium version.</SkypeApp_Features_Line2><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line3>Dial your contact on Skype.</SkypeApp_Features_Line3><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line4>Select the "+" button to add a caller.</SkypeApp_Features_Line4><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line5>Add the VerbalizeIt translator contact to your conversation.</SkypeApp_Features_Line5><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line6>Ask the translator to translate between you and the other participant. Enjoy!.</SkypeApp_Features_Line6><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line7>After your trial expires, purchase additional minutes: $25 for 60 minutes, $75 for 240 minutes (4 hours), and $350 for 1,440 minutes (24 hours).</SkypeApp_Features_Line7><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line8>Never again will a language barrier prevent you from having a conversation.</SkypeApp_Features_Line8><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line9>Visit VerbalizeIt.com to learn more.</SkypeApp_Features_Line9><!--Features of the program. If void, just leave blank-->
+        <SkypeApp_Features_Line10></SkypeApp_Features_Line10><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line11></SkypeApp_Features_Line11><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line12></SkypeApp_Features_Line12><!--Features of the program. If void, just leave blank-->
         <SkypeApp_Features_Line13></SkypeApp_Features_Line13><!--Features of the program. If void, just leave blank-->

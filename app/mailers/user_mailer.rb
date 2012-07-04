@@ -13,10 +13,28 @@ class UserMailer < ActionMailer::Base
     if version == "free"
       mail(:to => user.email, :bcc => "info@verbalizeit.com", :subject => "Thank you for Signing up with VerbalizeIt for Skype!", 
       :content_type => "text/html", :body => "Thank you for signing up for a trial version of <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. Your Skype name is: #{user.skype} 
-      <br/><br/>
-      You will soon receive a Skype request from '#{@lingo}'.
-      Once you confirm our request, you will be able to make 1 call to access  our global community of translators. 
-      You can make additional calls by signing up for the <a href='http://skype.verbalizeit.com'>premium version</a> by visiting <a href='http://skype.verbalizeit.com'>skype.verbalizeit.com</a>.
+      <br/>
+<ul>
+    <li>
+      To access a VerbalizeIt translator, please follow these brief instructions:
+    </li>
+    <li>
+      You can either send a Skype request to '#{@lingo}' or await a request from '#{@lingo}'
+    </li>
+    <li>  
+      Dial your contact on Skype
+    </li>
+    <li>
+      Select the "+" button to add a caller
+    </li>
+    <li>
+      Add the '#{@lingo}' contact to your conversation
+    </li>
+    <li>
+      Ask the translator to translate between you and the other participant. Enjoy!
+    </li>
+</ul>      
+You can make additional calls by signing up for the <a href='http://skype.verbalizeit.com'>premium version</a> by visiting <a href='http://skype.verbalizeit.com'>skype.verbalizeit.com</a>.
       <br/><br/>Thank you, <br/><br/>
       The VerbalizeIt Team, <br/><a href='http://www.verbalizeit.com'>VerbalizeIt<a/>. <br/><br/>
       <a href='https://twitter.com/#!/verbalize_it'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a><span> </span><a href='https://twitter.com/#!/verbalize_it'>Twitter</a><br/>
@@ -26,8 +44,27 @@ class UserMailer < ActionMailer::Base
       mail(:to => user.email, :bcc => "info@verbalizeit.com", :subject => "Thank you for Signing up with VerbalizeIt for Skype!", 
       :content_type => "text/html", :body => "Thank you for signing up with <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. Your Skype name is: #{user.skype} <br/>
 You chose #{user.preferred_language}.
-<br/><br/>Once your payment is processed and confirmed, a member of the VerbalizeIt team will follow-up with you with details on how to
-      access our global community of translators. Please allow 1 hour for us to respond to you. <br/><br/>Thank you, <br/><br/>
+<ul>
+    <li>
+      To access a VerbalizeIt translator, please follow these brief instructions:
+    </li>
+    <li>
+      You can either send a Skype request to '#{@lingo}' or await a request from '#{@lingo}'
+    </li>
+    <li>  
+      Dial your contact on Skype
+    </li>
+    <li>
+      Select the "+" button to add a caller
+    </li>
+    <li>
+      Add the '#{@lingo}' contact to your conversation
+    </li>
+    <li>
+      Ask the translator to translate between you and the other participant. Enjoy!
+    </li>
+</ul>
+Your payment will soon be processed and confirmed.<br/><br/>Thank you, <br/><br/>
       The VerbalizeIt Team, <br/><a href='http://www.verbalizeit.com'>VerbalizeIt<a/>. <br/><br/>
       <a href='https://twitter.com/#!/verbalize_it'><img src='http://dl.dropbox.com/u/3722777/icon/twitter_16.png' /></a><span> </span><a href='https://twitter.com/#!/verbalize_it'>Twitter</a><br/>
       <a href='http://www.facebook.com/verbalizeit'>
