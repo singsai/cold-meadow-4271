@@ -33,6 +33,9 @@ class UserMailer < ActionMailer::Base
     <li>
       Ask the translator to translate between you and the other participant. Enjoy!
     </li>
+    <li>
+      To view a brief explanatory vide on how to use VerbalizeIt for Skype, please visit <a href='http://youtu.be/9VyXRyRtWmY'>http://youtu.be/9VyXRyRtWmY</a> 
+    </li
 </ul>      
 You can make additional calls by signing up for the <a href='http://skype.verbalizeit.com'>premium version</a> by visiting <a href='http://skype.verbalizeit.com'>skype.verbalizeit.com</a>.
       <br/><br/>Thank you, <br/><br/>
@@ -63,6 +66,9 @@ You chose #{user.preferred_language}.
     <li>
       Ask the translator to translate between you and the other participant. Enjoy!
     </li>
+    <li>
+      To view a brief explanatory vide on how to use VerbalizeIt for Skype, please visit <a href='http://youtu.be/9VyXRyRtWmY'>http://youtu.be/9VyXRyRtWmY</a> 
+    </li    
 </ul>
 Your payment will soon be processed and confirmed.<br/><br/>Thank you, <br/><br/>
       The VerbalizeIt Team, <br/><a href='http://www.verbalizeit.com'>VerbalizeIt<a/>. <br/><br/>
