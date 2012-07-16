@@ -38,11 +38,12 @@
                 </div>
 
                 <div class="control-group">
-                <label class="control-label">Language I Need Translated</label>
-                <div class="controls">
-					<%= f.select :preferred_language, [ ['Spanish'], ['Mandarin'], ['Hindi'] ], :html => {:class=>"span4 preferredlanguage"} %>
-                </div>
-                <div class="control-group">
+	                <label class="control-label">Language I Need Translated</label>
+	                <div class="controls">
+						<%= f.select :preferred_language, [ ['Spanish'], ['Mandarin'], ['Hindi'] ], :html => {:class=>"span4 preferredlanguage"} %>
+	                </div>				
+            	</div>
+	            <div class="control-group">
 					<label class="control-label">How do you expect to use VerbalizeIt for Skype?</label>					
 					<div class="controls">	
 		                <label>
@@ -56,7 +57,6 @@
 		                </label>
 					</div>
 				</div>
-            </div>
                 <div class="control-group">
                     <label class="control-label">&nbsp;</label>
                     <div class="controls">
