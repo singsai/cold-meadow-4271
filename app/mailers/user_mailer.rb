@@ -12,7 +12,7 @@ class UserMailer < ActionMailer::Base
     
     if version == "free"
       mail(:to => user.email, :bcc => "info@verbalizeit.com", :subject => "Thank you for Signing up with VerbalizeIt for Skype!", 
-      :content_type => "text/html", :body => "Thank you for signing up for a trial version of <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. Your Skype name is: #{user.skype} 
+      :content_type => "text/html", :body => "Thank you for signing up for a trial version of <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. You expect to use VerbalizeIt for #{user.expected_usage}. Your Skype name is: #{user.skype} 
       <br/>
 <ul>
     <li>
@@ -45,7 +45,7 @@ You can make additional calls by signing up for the <a href='http://skype.verbal
       <img src='http://therohanaurora.com/files/downloads/icon/facebook_16.png' /></a><span> </span><a href='http://www.facebook.com/verbalizeit'>Facebook</a>")
     else
       mail(:to => user.email, :bcc => "info@verbalizeit.com", :subject => "Thank you for Signing up with VerbalizeIt for Skype!", 
-      :content_type => "text/html", :body => "Thank you for signing up with <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. Your Skype name is: #{user.skype} <br/>
+      :content_type => "text/html", :body => "Thank you for signing up with <a href='http://skype.verbalizeit.com'>VerbalizeIt for Skype</a>. You expect to use VerbalizeIt for #{user.expected_usage}. Your Skype name is: #{user.skype} <br/>
 You chose #{user.preferred_language}.
 <ul>
     <li>
